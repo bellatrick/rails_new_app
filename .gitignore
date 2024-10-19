@@ -7,6 +7,7 @@
 # Ignore bundler config.
 /.bundle
 
+
 # Ignore all environment files.
 /.env*
 
@@ -37,3 +38,4 @@
 !/app/assets/builds/.keep
 
 /node_modules
+/spring/*.pid

@@ -1,2 +1,11 @@
-<h1>StaticSite#help</h1>
-<p>Find me in app/views/static_site/help.html.erb</p>
+<%provide(:title, "Help")%>
+<!DOCTYPE html>
+<html>
+<head>
+    <title><%= yield(:title)%> | Ruby on rails application</title>
+</head>
+<body>
+    <h1>Help</h1>
+  <p>Help page</p>
+</body>
+</html>
