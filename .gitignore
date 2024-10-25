@@ -39,3 +39,4 @@
 
 /node_modules
 /spring/*.pid
+/vendor
